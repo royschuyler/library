@@ -1,4 +1,4 @@
-var bounce = 4;
+var bounce = 2;
 //D NEEDS TO BE ODD
 function backAndFourth(d,start,bounce){
   var arr = [];
@@ -15,6 +15,7 @@ function backAndFourth(d,start,bounce){
       k--
     }
   }
+  arr.push(-Math.floor(peak))
   return arr
 }
 
