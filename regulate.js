@@ -1,3 +1,5 @@
+//NUMBERS OVER 360 WILL OVERFLOW BACK FROM ZERO
+
 function regulate(d,topTwist){
   var arr = [];
 
